@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - 'main'
+      - 'lecture21-regular-expr'
   pull_request:
     branches:
       - 'main'
+      - 'lecture21-regular-expr'
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
